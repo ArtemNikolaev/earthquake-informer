@@ -1,0 +1,7 @@
+{
+  "quake_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson",
+  "map": {
+    "center": [33.858631, -118.279602],
+    "zoom": 7
+  }
+}

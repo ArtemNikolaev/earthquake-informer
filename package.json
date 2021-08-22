@@ -1,0 +1,27 @@
+{
+  "name": "earthquake-informer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Artem Nikolaev <artem@nikolaev.by>",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  },
+  "dependencies": {
+    "leaflet": "^1.7.1",
+    "rxjs": "^7.3.0",
+    "favicons": "^6.2.2",
+    "favicons-webpack-plugin": "^5.0.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  }
+}
