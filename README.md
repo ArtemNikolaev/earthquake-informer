@@ -1,5 +1,7 @@
 # Earthquake Informer
-Shows all todays earthquakes all around the world
+Shows on the world map the points where the earthquake occurred today.
+
+[Website](https://artemnikolaev.github.io/earthquake-informer/)
 
 ---
 # how to run
