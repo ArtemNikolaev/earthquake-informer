@@ -5,7 +5,7 @@ const path = require("path");
 module.exports = {
   entry: "./index.js",
   output: {
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(__dirname, "./docs"),
     filename: "index_bundle.js",
   },
   module: {
@@ -18,7 +18,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "Earthquake Informer",
       template: "./src/static/index.html",
     }),
     new FaviconsWebpackPlugin({
